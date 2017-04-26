@@ -145,7 +145,8 @@ ul{list-style-type: none;}
 	}
 
 .thetable p{
-	font-family:Futura-Bold, Futura;
+	font-family:Futura;
+	font-weight: bold;
 	letter-spacing:-0.03em;
 	display: inline;
 	}
@@ -201,7 +202,8 @@ ul{list-style-type: none;}
 .pthing{
 	position:absolute;
 	top:40px;
-	font-family:Futura-Bold, Futura;
+	font-family:Futura;
+	font-weight: bold;
 	letter-spacing:-0.06em;
 	width: 70px;
 	font-size: 20px;

@@ -12,7 +12,14 @@
 	font-weight: bold;
  }
 
-body {background-color: #3C235A;}
+
+body {background-color: #3C235A;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+ 
 
 ul{list-style-type: none;}
 

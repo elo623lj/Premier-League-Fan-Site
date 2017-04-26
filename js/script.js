@@ -151,17 +151,17 @@ var theshown = "";
 
 $( "#team" ).click(function(){
 	removething (theshown,'.theteam');
-	showthing('.theteam',1606);
+	showthing('.theteam',1616);
 });
 
 $( "#table" ).click(function(){
 	removething (theshown,'.thetable');
-	showthing('.thetable',1189);
+	showthing('.thetable',1199);
 });
 
 $( "#teamweek" ).click(function(){
 	removething (theshown,'.theteamweek');
-	showthing('.theteamweek',1189);
+	showthing('.theteamweek',1199);
 	
 });
 

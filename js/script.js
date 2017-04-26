@@ -1,8 +1,4 @@
-var myJSON;
 
-$.getJSON( "teams.json", function (json) {
-    myJSON = json;
-});
 
 $( ".overimg g" ).mouseenter(function() {
     $(this).animate({
@@ -272,6 +268,10 @@ if (shown != "" && shown != fff  ) {
 
 
 //Table!!!! finally:) :))))
+var myJSON;
+
+$.getJSON( "teams.json", function (json) {
+    myJSON = json;
 
 
 $('.thetable').append('<li class="tabletop"><div class="tablebox1"><p>Pos</p></div><div class="tablebox2"><p>Club</p></div><div class="tablebox3"><p>Pts</p></div></li>');
@@ -286,6 +286,8 @@ for (var ii = 0; ii < 21; ii++) {
 
 	}
 }
+	
+});
 
 $('.thetable li').filter('.tablething:even').addClass("tableeven");
 

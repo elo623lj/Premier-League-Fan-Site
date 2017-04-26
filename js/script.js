@@ -1,4 +1,8 @@
+var myJSON;
 
+$.getJSON( "teams.json", function (json) {
+    myJSON = json;
+});
 
 $( ".overimg g" ).mouseenter(function() {
     $(this).animate({
@@ -256,22 +260,9 @@ if (shown != "" && shown != fff  ) {
 }
 
 
-//complete: function() {
-//			$(shown).css("display","none");
-//			$('.wrap').animate(
-//			{width: www},
-//			600); }
 
 
-/*
-cant use this because chrome does not allow cross-origin :(
-*/
 
-var myJSON;
-
-$.getJSON( "teams.json", function (json) {
-    myJSON = json;
-});
 
 
 

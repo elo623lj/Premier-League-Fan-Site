@@ -3,7 +3,13 @@
 
 @font-face {
     font-family: 'Futura';
-    src: url('Futura.ttc');
+    src: url('Futura-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('Futura-Bold.ttf');
+	font-weight: bold;
  }
 
 body {background-color: #3C235A;}
